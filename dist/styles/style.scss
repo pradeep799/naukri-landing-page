@@ -1,0 +1,52 @@
+img {
+  width: 100%;
+}
+
+header {
+  background: linear-gradient(
+      to right,
+      rgba($color: #000000, $alpha: 0.6),
+      rgba($color: #000000, $alpha: 1)
+    ),
+    url("../images/showcase.jpg") center center/cover;
+  background-blend-mode: multiply;
+  border: 1px solid black;
+}
+
+.showcase {
+  height: 90vh;
+  text-align: center;
+
+  &__container {
+    color: ghostwhite;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+}
+
+.cta__container {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #0b1523;
+}
+
+.footer {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
